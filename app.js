@@ -8,6 +8,7 @@ config({
   path: "./config/config.env",
 });
 const app = express();
+// mongodb+srv://tajpuriyabir:HNyPl3KkvzmdE0Sh@sahayogi.8b8pqnh.mongodb.net/Sahayogi?retryWrites=true&w=majority
 
 // Using Middlewares
 app.use(express.json());
